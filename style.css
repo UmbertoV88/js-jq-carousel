@@ -21,6 +21,7 @@
     height: 60%;
     margin: auto;
     display: flex;
+    position: relative;
     /* background-color: red; */
 }
 .navigation {
@@ -61,6 +62,30 @@
     display: none;
 
 }
-img.active {
+.slider img.active {
+    display: block;
+}
+
+.circle-container  {
+    position: absolute;
+    bottom: -30px;
+    left: 450px;
+    cursor: pointer;
+}
+
+.circle-container i.active {
+    background-color: black;
+    border-radius: 100%;
+}
+
+.tasti i {
+    position: absolute;
+    bottom: -36px;
+    left: 41%;
+    font-size: 30px;
+    display: none;
+}
+
+.tasti i.active{
     display: block;
 }
