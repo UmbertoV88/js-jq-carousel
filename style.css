@@ -69,7 +69,8 @@
 .circle-container  {
     position: absolute;
     bottom: -30px;
-    left: 450px;
+    width: 100%;
+    text-align: center;
     cursor: pointer;
 }
 
